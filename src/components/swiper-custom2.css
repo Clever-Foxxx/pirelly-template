@@ -1,0 +1,17 @@
+.swiper-slide {
+  border-radius: 10px !important;
+}
+
+.swiper-slide {
+  display: flex;
+  background-color: transparent !important;
+  align-items: center;
+  border-radius: 15%;
+  justify-content: center;
+}
+.swiper-slide-visible {
+  background: none;
+}
+.swiper-slide-active {
+  background: none;
+}

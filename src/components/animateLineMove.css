@@ -1,0 +1,22 @@
+.lineMove {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 0;
+  stroke: aqua;
+  animation: animate-heart 5s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate-heart {
+  0% {
+    stroke-dashoffset: 3200;
+  }
+  40% {
+    stroke-dashoffset: 1800;
+  }
+  80% {
+    stroke-dashoffset: 900;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
